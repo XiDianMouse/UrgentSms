@@ -37,14 +37,6 @@
             android:exported="true">
         </service>
 
-        <receiver
-            android:name=".daemon.PhoneStateReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-            </intent-filter>
-        </receiver>
-
     </application>
 
 </manifest>
